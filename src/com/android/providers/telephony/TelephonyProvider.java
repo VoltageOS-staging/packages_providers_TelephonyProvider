@@ -4832,7 +4832,7 @@ public class TelephonyProvider extends ContentProvider
                 Binder.getCallingUid());
 
         if (!useNewBehavior) {
-            log("Using old permission behavior for telephony provider compat");
+            //log("Using old permission behavior for telephony provider compat");
             checkQueryPermission(match, projectionIn);
         } else {
             checkPermission();
